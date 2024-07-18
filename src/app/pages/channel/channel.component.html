@@ -1,0 +1,16 @@
+<div class="flex flex-wrap justify-center items-center p-5 bg-white">
+    <p class="font-extrabold"
+    ><span
+    class="bg-red-100 text-red-800 text-xl font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-red-900 dark:text-red-300"
+    >EN VIVO</span
+    ></p
+    >
+    
+    <div class="w-full" *ngIf="channel"  >
+      <p class="text-xl p-3 font-bold">{{channel.name}}</p>
+    <iframe class="embed-responsive-item" [src]="channel.url | safe" width="100%" height="600px" allow="autoplay; encrypted-media" controls></iframe>
+  </div>
+  <div *ngIf="!channel">
+    <p>Channel not found</p>
+  </div>
+</div>
