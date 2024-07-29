@@ -79,8 +79,13 @@ export default class ChannelComponent implements OnInit {
     },
     {
       id: "vix2",
-      name: 'VIX 2',
+      name: 'VIX (OPCION 2)',
       url: "https://voodc.com/player/d/hYuSiKGMhZWNnKHC28DVwLSWh8C9wcXG4MehtYiZhI64wNeKh5zPn4iU0cfVuarGubS9x5aKoIeJrJ-9oZ-Nw9K.uKi8zL.CpL.bw8DGiJuKg5GHvLW5wsnSiYaYip-Zt8iIm4qDkYc_/nYaOjJaHmI6HmoGEmImahouTi5-EgKe6"
+    },
+    {
+      id: "vixtudn",
+      name: 'ViX | TUDN',
+      url: "https://golazohd.com/hls.html?get=aHR0cHM6Ly9saW5lYXItMzgxLmZyZXF1ZW5jeS5zdHJlYW0vbXQvc3R1ZGlvLzM4MS9obHMvbWFzdGVyL3BsYXlsaXN0XzEwMjR4NTc2Lm0zdTg="
     },
 
     {

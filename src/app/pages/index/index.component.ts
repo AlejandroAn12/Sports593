@@ -73,13 +73,19 @@ export default class  IndexComponent implements OnInit{
 
     {
       id: "vix",
-      name: 'Vix',
+      name: 'VIX',
       img: "https://upload.wikimedia.org/wikipedia/commons/b/b7/VixLogoOf2022.png"
     },
 
     {
       id: "vix2",
-      name: 'Vix 2',
+      name: 'VIX (OPCION 2)',
+      img: "https://upload.wikimedia.org/wikipedia/commons/b/b7/VixLogoOf2022.png"
+    },
+
+    {
+      id: "vixtudn",
+      name: 'VIX | TUDN',
       img: "https://upload.wikimedia.org/wikipedia/commons/b/b7/VixLogoOf2022.png"
     },
 
